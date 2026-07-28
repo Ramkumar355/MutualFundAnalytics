@@ -1,0 +1,17 @@
+# Day 1 Data Quality Summary
+
+ I Loaded all 10 CSV datasets successfully using Pandas.
+
+I checked the shape, data types and first five rows of each dataset.
+
+### Observations
+
+- All datasets loaded without any errors.
+- No empty or corrupted datasets were found.
+- Most of the columns have appropriate data types.
+- Date columns are stored as strings and can be converted to datetime during preprocessing.
+- `04_monthly_sip_inflows.csv` contains `NaN` values in the `yoy_growth_pct` column for the first few records, because previous-year values are unavailable.
+- Apart from this, no major data quality issues were observed.
+### Conclusion
+
+The datasets look consistent and are ready for the next stage of the project.
